@@ -1,0 +1,3 @@
+FROM python:3.14-slim\n\n# Set working directory\nWORKDIR /app\n\n# Install system dependencies (if any)\nRUN apt-get update && apt-get install -y --no-install-recommends \
+    build-essential \
+    && rm -rf /var/lib/apt/lists/*\n\n# Copy requirements and install Python packages\nCOPY requirements.txt .\nRUN pip install --no-cache-dir -r requirements.txt\n\n# Copy application code\nCOPY . .\n\n# Expose port for FastAPI\nEXPOSE 8000\n\n# Use environment variable for host/port defaults\nENV HOST=0.0.0.0\nENV PORT=8000\n\n# Start the FastAPI server\nCMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
