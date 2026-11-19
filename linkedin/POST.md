@@ -30,9 +30,10 @@ To ensure high accuracy and zero regressions, I built an automated evaluation pi
 
 ---
 
-🔗 **Project Repository**:
-- GitHub: https://github.com/Anugrah-Ajith/AI-Document-Q-A-Assistant-RAG-.git
-- Live Local Instance: `http://127.0.0.1:8000`
+🔗 **Project Links**:
+- 🌐 Live Web App (Vercel): https://frontend-five-plum-90.vercel.app
+- 💻 GitHub Repository: https://github.com/Anugrah-Ajith/AI-Document-Q-A-Assistant-RAG-.git
+- ⚡ Local Server: `http://127.0.0.1:8000`
 
 Would love to hear your feedback, thoughts on RAG architectures, or suggestions! 👇
 
