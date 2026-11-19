@@ -7,6 +7,10 @@ A Retrieval‑Augmented Generation (RAG) web application that lets users upload 
 - **Frontend**: React + Vite, dark theme UI for document upload, session management, and chat with citation cards.
 - **Containerisation**: Dockerfiles for backend and frontend, orchestrated with `docker‑compose`.
 
+## Live Deployments & Links
+- 🌐 **Live Web Application (Vercel)**: [https://frontend-five-plum-90.vercel.app](https://frontend-five-plum-90.vercel.app)
+- 💻 **GitHub Repository**: [https://github.com/Anugrah-Ajith/AI-Document-Q-A-Assistant-RAG-](https://github.com/Anugrah-Ajith/AI-Document-Q-A-Assistant-RAG-)
+
 ## Architecture
 ```mermaid
 flowchart LR
