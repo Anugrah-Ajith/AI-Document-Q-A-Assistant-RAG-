@@ -60,3 +60,6 @@ inspect_db.py
 Thumbs.db
 .vscode/
 .idea/
+
+.vercel
+.env*

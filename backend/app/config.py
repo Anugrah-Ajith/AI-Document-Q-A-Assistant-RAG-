@@ -32,7 +32,13 @@ class Settings(BaseSettings):
 
     # CORS settings
     CORS_ORIGINS: Union[List[str], str] = Field(
-        default=["http://localhost:3000", "http://localhost:5173", "http://127.0.0.1:5173"],
+        default=[
+            "http://localhost:3000",
+            "http://localhost:5173",
+            "http://127.0.0.1:5173",
+            "https://frontend-five-plum-90.vercel.app",
+            "https://frontend-3snsyau3v-anugrah-ajiths-projects.vercel.app",
+        ],
         description="Allowed CORS origins"
     )
 
